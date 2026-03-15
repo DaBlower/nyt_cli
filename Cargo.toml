@@ -13,3 +13,7 @@ dotenvy = "0.15.7"
 [profile.dist]
 inherits = "release"
 lto = "thin"
+
+
+[package.metadata.dist]
+include = [".env.example"]
